@@ -1,0 +1,21 @@
+//COMMAND FOR MONGODB 
+
+. SHOWING ALL AVAILABLE DBS: show databases.
+
+. CREATING DB OR USE EXISTING DB: use "db name".
+
+. DELETING DBS: db.dropDatabase (its delete current dbs which we switch)
+
+. CREATING COLLECTION: db.createCollection('collection name').
+
+. SHOWING ALL COLLECTION AVAILABLE: click: use db.---> show collections.
+
+. DELETING COLLECTION: db.collection-name.drop.
+
+. ADD COLLECTION ELEMENT: db.collection-name.insertOne({name: 'nokia9', brand:"Nokia", price: 20000})---> its provide unique id for each element.
+
+. CHECKING ALL ADDED ELEMENT IN COLLECTION: db.collection-name.find().
+
+. UPDATE COLLECTIOIN PRODUCT: db.collection-name.updateOne({name:'nokia9},{$set:(brand:'nokia')})
+
+. DELETE COLLECTION PROUDUCT: db.collection-name.deleteOne({name:'nokia5'})
